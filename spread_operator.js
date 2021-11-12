@@ -34,15 +34,15 @@
 
 //apply함수: spread이전에는 apply함수로 사용했었다  >> plus.apply(undefined, array)
 
-let person = {
-  인사 : function(){
-    console.log(this.name + 'hello')
-  },
-}
+// let person = {
+//   인사 : function(){
+//     console.log(this.name + 'hello')
+//   },
+// }
 
-let person2 = {
-  name : "손흥민",
-}
+// let person2 = {
+//   name : "손흥민",
+// }
 
-person.인사.apply(person2, [1,2])
-person.인사.call(person2, 1, 2) // apply call 비슷함 근데 apply는 파라미터를 array형태로 집어넣기 가능
+// person.인사.apply(person2, [1,2])
+// person.인사.call(person2, 1, 2) // apply call 비슷함 근데 apply는 파라미터를 array형태로 집어넣기 가능
