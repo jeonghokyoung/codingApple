@@ -1,6 +1,6 @@
-// var array = ['hello', 'world'];
-// console.log(...array)
-// console.log('hello', 'world');
+var array = ['hello', 'world'];
+console.log(...array)
+console.log('hello', 'world');
 
 // var word = 'hello'
 // console.log(...word) // hello 라는 문자가 해체 됨 h e l l o 이런식으로 
